@@ -23,6 +23,7 @@
 		        </div>
 		    </div>
 		    <div class="row">
+		    	<!-- Game instructions -->
 			    <div class="col-xs-12" id="instructions">
 		            <p>You will be given a random number at the start of the game.</p>
 		            <p>There are four gems below.  By clicking on a gem you will add a specific amount of points to your total score.</p>
@@ -32,28 +33,34 @@
 		        </div>
 		    </div> 
 		    <div class="row">
+		    	<!-- Displays first current target number and then current 		win/lose status and then tally of all wins and loses 
+		    		 in this session -->
 			    <div class="col-xs-5" id="target">
 		            <p>39</p>
 		        </div>
 			    <div class="col-xs-5" id="tally">
+			    	<div id="message"> </div>
 		            <div id="wins">Wins: 0</div>
 		            <div id="losses">Loses: 0</div>
 		        </div>
 		    </div>
 		    <div class="row">
 		    	<div class="col-xs-12">
+		    	<!-- This will display the rows of gems, created 	dynamically -->
 		    		<div class="row gems">
 	
 		    		</div>
 		    	</div>
 		    </div>
 		    <div class="row">
-		    	<div class="col-xs-6" id="subtitle">
+		    <!-- Displays text -->
+		    	<div class="col-xs-5" id="subtitle">
 		    		<p>Your total score is: </p>
 		    	</div>
 		    </div>
 		    <div class="row">
-		    	<div class="col-xs-6" id="score">
+		    <!--Displays current total score -->
+		    	<div class="col-xs-5" id="score">
 		    		<p>0 </p>
 		    	</div>
 		    </div>	
